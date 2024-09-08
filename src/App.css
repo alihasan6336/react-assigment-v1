@@ -22,3 +22,69 @@
   max-height: 200px;
   object-fit: cover;
 }
+
+.not-found {
+  text-align: center;
+  padding: 50px;
+}
+
+.not-found button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.error {
+  text-align: center;
+  padding: 50px;
+}
+
+.error button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.create-product {
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin: 20px;
+}
+
+.create-product form div {
+  margin-bottom: 10px;
+}
+
+.create-product form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.create-product form input,
+.create-product form textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.create-product form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+}
+
+.product-card button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
